@@ -1,0 +1,13 @@
+@import "./scss/partials/variable";
+@import "./scss/partials/function";
+@import "./scss/partials/mixin";
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
