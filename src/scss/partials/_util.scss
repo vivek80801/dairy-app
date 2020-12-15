@@ -1,0 +1,42 @@
+@for $number from 1 to 10 {
+    .p-#{$number}{
+        padding: #{$number}rem;
+    }
+    .pb-#{$number}{
+        padding-bottom: #{$number}rem;
+    }
+    .pt-#{$number}{
+        padding-top: #{$number}rem;
+    }
+    .pr-#{$number}{
+        padding-right: #{$number}rem;
+    }
+    .pl-#{$number}{
+        padding-left: #{$number}rem;
+    }
+
+    .m-#{$number}{
+        margin: #{$number}rem;
+    }
+    .mb-#{$number}{
+        margin-bottom: #{$number}rem;
+    }
+    .mt-#{$number}{
+        margin-top: #{$number}rem;
+    }
+    .mr-#{$number}{
+        margin-right: #{$number}rem;
+    }
+    .ml-#{$number}{
+        margin-left: #{$number}rem;
+    }
+}
+
+%btn{
+    padding: 0.75rem;
+    border: none;
+    outline: none;
+    border-radius: 00.45rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}

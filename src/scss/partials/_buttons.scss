@@ -1,0 +1,26 @@
+.btn-primary{
+    @include setBackground($primary);
+    @extend %btn;
+}
+
+.btn-primary:hover {
+    @include setBackground(lighten($color: $primary, $amount:$lightnessOfColor ))
+}
+
+.btn-secondary{
+    @include setBackground($secondary);
+    @extend %btn;
+}
+
+.btn-secondary:hover {
+    @include setBackground(lighten($color: $secondary, $amount: $lightnessOfColor))
+}
+
+.btn-danger{
+    @include setBackground($danger);
+    @extend %btn;
+}
+
+.btn-danger:hover {
+    @include setBackground(lighten($color: $danger, $amount: $lightnessOfColor))
+}

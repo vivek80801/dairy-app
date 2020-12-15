@@ -1,6 +1,8 @@
 @import "./scss/partials/variable";
 @import "./scss/partials/function";
 @import "./scss/partials/mixin";
+@import "./scss/partials/util";
+@import "./scss/partials/buttons";
 
 *{
 	padding: 0;
@@ -10,4 +12,11 @@
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
