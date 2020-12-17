@@ -40,6 +40,7 @@ const Notes: React.FC = (): JSX.Element => {
 											setEditId(id);
 										}}
 										className={"btn-secondary"}
+										data-testid="btn-edit"
 									>
 										edit
 									</button>

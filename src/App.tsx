@@ -30,6 +30,7 @@ const App: React.FC = (): JSX.Element => {
 					type="date"
 					onChange={(e) => setMyDate(e.target.value)}
 					className={"input-primary"}
+					data-testid="input"
 				/>
 				<textarea
 					cols={30}
@@ -37,6 +38,7 @@ const App: React.FC = (): JSX.Element => {
 					onChange={(e) => setDiscription(e.target.value)}
 					className={"p-1 input-secondary"}
 					placeholder="Write Note"
+					data-testid="text"
 				></textarea>
 				<br />
 				<button

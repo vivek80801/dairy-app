@@ -40,6 +40,7 @@ const Modal: React.FC<{
 				type="date"
 				className={"input-primary"}
 				value={editDate}
+				data-testid="edit-input"
 			/>
 			<textarea
 				onChange={(e) => setNote(e.target.value)}
