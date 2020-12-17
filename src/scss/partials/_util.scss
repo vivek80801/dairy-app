@@ -40,3 +40,14 @@
     text-transform: capitalize;
     cursor: pointer;
 }
+
+%input{
+	outline: none;
+	padding: 0.75rem;
+    border-radius: 00.75rem;
+    border: none;
+}
+
+%input::placeholder{
+    color: $white
+}

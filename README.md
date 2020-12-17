@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Dairy App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is dairy app. In this app you can write notes for diffrent dates. It allows you to write multiple notes for a single date.
 
-## Available Scripts
+## setup
 
-In the project directory, you can run:
+You should have `nodejs` installed in your device. If you don't have `nodejs` then go to [nodejs](https://nodejs.org "go to nodejs.org") 
 
-### `yarn start`
+## Run the app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you are on Mac os or Linux. Then follow these steps
+- If you don't have `yarn` installed in your device
+    - Delete the `yarn.lock` and `node_module`
+```bash
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Run npm install to install all the dependencies
+npm install
 
-### `yarn test`
+# Run npm start to start development server
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `yarn build`
+- If you have `yarn` installed in your device
+```bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# yarn start to start development server
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## format the code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To format the code run
 
-### `yarn eject`
+```bash
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm run format
+#   OR
+yarn format
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## check linting errors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To check linting errors. You can install `eslint` for your IDE or text-editor.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+            OR
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run lint
+#     OR
+yarn lint
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## test app
+
+You can test the app manually or you can test the app by just runing
+
+```bash
+
+npm run test
+#  OR
+yarn test
+```

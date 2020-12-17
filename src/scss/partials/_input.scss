@@ -1,0 +1,24 @@
+.input-primary{
+    @extend %input;
+    @include setBackground($primary);
+}
+
+.input-secondary{
+    @extend %input;
+    @include setBackground($secondary);
+}
+
+.input-danger{
+    @extend %input;
+    @include setBackground($danger);
+}
+
+.input-sucess{
+    @extend %input;
+    @include setBackground($sucess);
+}
+
+.input-dark {
+    @extend %input;
+    @include setBackground($black)
+}

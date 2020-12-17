@@ -24,3 +24,12 @@
 .btn-danger:hover {
     @include setBackground(lighten($color: $danger, $amount: $lightnessOfColor))
 }
+
+.btn-sucess{
+    @include setBackground($sucess);
+    @extend %btn;
+}
+
+.btn-sucess:hover {
+    @include setBackground(lighten($color: $sucess, $amount: $lightnessOfColor))
+}
